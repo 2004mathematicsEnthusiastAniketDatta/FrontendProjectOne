@@ -5,7 +5,15 @@ let Header =() =>{
   return (
     <div className='header'>
       <div id='logo'>
-        <img src="./assets/" alt="" srcSet="" />
+        <img src="./src/assets/foodzBuddy.png" alt="foodzBuddy" />
+      </div>
+      <div className='nav-items'>
+      <ul>
+         <li>Home</li>
+         <li>About Us</li>
+         <li>Contact Us</li>
+         <li>Cart</li>
+      </ul>
       </div>
     </div>
   )
